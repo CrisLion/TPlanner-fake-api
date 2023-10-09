@@ -1,0 +1,1062 @@
+{
+  "Operation": [
+    {
+      "id": 1,
+      "tourist_id": 101,
+      "travel_itinerary_id": 201,
+      "operation_date": "2023-09-19 10:00:00",
+      "operation_type": "Booking"
+    }
+  ],
+  "Product": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "description": "Description of Product 1",
+      "stock": 100,
+      "unit_price": 50,
+      "product_category_id": 1,
+      "SwapiFyShop_Catalog_id": 1,
+      "expiration_date": "2023-12-31 23:59:59"
+    }
+  ],
+  "Reviews": [
+    {
+      "id": 1,
+      "rating": 4.5,
+      "description": "Great service!",
+      "tourist_id": 101,
+      "turist_service_id": 301
+    }
+  ],
+  "SwapiFyShop_Catalog": [
+    {
+      "id": 1,
+      "name": "Catalog 1",
+      "description": "Description of Catalog 1",
+      "start_date": "2023-01-01 00:00:00",
+      "end_date": "2023-12-31 23:59:59"
+    }
+  ],
+  "SwapifyShop_order": [
+    {
+      "id": 1,
+      "Product_id": 1,
+      "Quantity": 2,
+      "unit_price": 50,
+      "Exchange_date": "2023-09-20 14:00:00",
+      "tourist_id": 101
+    }
+  ],
+  "address": [
+    {
+      "id": 1,
+      "street_description": "123 Main Street",
+      "city_id": 1
+    }
+  ],
+  "advertisement": [
+    {
+      "id": 1,
+      "tourist_provider_id": 201,
+      "name": "ad 1",
+      "thumbnail": "thumbnail_link.jpg",
+      "views": 1000,
+      "clicks": 50,
+      "start_date": "2023-09-15 00:00:00",
+      "deadline": "2023-09-30 23:59:59",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 500
+    },
+    {
+      "id": 2,
+      "tourist_provider_id": "201",
+      "name": "youtube",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "1695747240285",
+      "deadline": "27",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 100
+    },
+    {
+      "id": 3,
+      "tourist_provider_id": "201",
+      "name": "HOla",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "1,695,747,427,018",
+      "deadline": "27",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 1111
+    },
+    {
+      "id": 4,
+      "tourist_provider_id": "201",
+      "name": "dsdasdadsasa",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 13:28:15 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 13:28:15 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 11211
+    },
+    {
+      "id": 395,
+      "tourist_provider_id": "201",
+      "name": "my new ad",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 14:06:09 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 14:06:09 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 200
+    },
+    {
+      "id": 5124,
+      "tourist_provider_id": 201,
+      "name": "12121",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 14:07:24 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 14:07:24 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 212121
+    },
+    {
+      "id": 3460,
+      "tourist_provider_id": 201,
+      "name": "1",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 14:33:31 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 14:33:31 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 11111
+    },
+    {
+      "id": 7902,
+      "tourist_provider_id": 201,
+      "name": "1",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 14:34:07 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 14:34:07 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 11111
+    },
+    {
+      "id": 6536,
+      "tourist_provider_id": 201,
+      "name": "11132",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 14:35:38 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 14:35:38 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 11113232
+    },
+    {
+      "id": 3288,
+      "tourist_provider_id": 201,
+      "name": "11132",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 14:36:21 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 14:36:21 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 11113232
+    },
+    {
+      "id": 4821,
+      "tourist_provider_id": 201,
+      "name": "11",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 15:11:00 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 15:11:00 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 114241
+    },
+    {
+      "id": 9116,
+      "tourist_provider_id": 201,
+      "name": "111",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 15:12:26 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 15:12:26 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 11
+    },
+    {
+      "id": 31,
+      "tourist_provider_id": 201,
+      "name": "111",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Tue Sep 26 2023 15:12:46 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Wed Sep 27 2023 15:12:46 GMT-0500 (hora estándar de Perú)",
+      "service_name": "Service 1",
+      "redirectTo": "https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES",
+      "amount": 1111
+    },
+    {
+      "id": 540,
+      "tourist_provider_id": 201,
+      "name": "test",
+      "thumbnail": "",
+      "views": 0,
+      "clicks": 0,
+      "start_date": "Sat Sep 30 2023 14:38:55 GMT-0500 (hora estándar de Perú)",
+      "deadline": "Sun Oct 01 2023 14:38:55 GMT-0500 (hora estándar de Perú)",
+      "amount": 105
+    }
+  ],
+  "chat": [
+    {
+      "tourist_provider_id": 201,
+      "tourist_id": 101
+    }
+  ],
+  "chat_line": [
+    {
+      "id": 1,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "Hello, how can I help you?",
+      "date": "2023-09-19 10:30:00"
+    },
+    {
+      "id": 2,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "Hola mano, soy la agencia turistica.",
+      "date": "Mon Sep 25 2023 03:51:38 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 3,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "Espero que pueda ayudarlo",
+      "date": "Mon Sep 25 2023 03:57:50 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 4,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "En caso si necesite llame a mi número",
+      "date": "Mon Sep 25 2023 03:58:46 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 5,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "Hola, como turista, me gustaria un descuento",
+      "date": "Mon Sep 25 2023 03:59:55 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 6,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "Aló?",
+      "date": "Mon Sep 25 2023 04:19:58 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 7,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "me llamas?",
+      "date": "Mon Sep 25 2023 04:24:59 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 8,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "Espero que pueda encontrar a mi verdadero amigo -:,vs\nsasasa\nsasA\n",
+      "date": "Mon Sep 25 2023 04:25:23 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 9,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "aaaaaaaaaaaaaaa",
+      "date": "Tue Sep 26 2023 19:30:17 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 10,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "aeaeaeaeaee",
+      "date": "Tue Sep 26 2023 19:30:40 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 11,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "sneaker",
+      "date": "Tue Sep 26 2023 19:31:02 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 12,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "oe cholo\n",
+      "date": "Tue Sep 26 2023 19:44:45 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 13,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "callate manco",
+      "date": "Tue Sep 26 2023 19:45:11 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 14,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "que me has dicho indigente?",
+      "date": "Tue Sep 26 2023 19:45:34 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 15,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "que cobras por minutos",
+      "date": "Tue Sep 26 2023 19:45:51 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 16,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "y tu te regalas",
+      "date": "Tue Sep 26 2023 19:46:10 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 17,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "nada mano, yo soy carolin",
+      "date": "Tue Sep 26 2023 19:46:22 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 18,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "espero que vayas a misa",
+      "date": "Tue Sep 26 2023 19:46:38 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 19,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "lo #### siempre es de segunda mano\n",
+      "date": "Tue Sep 26 2023 19:46:46 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 20,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "fuiste mano, saluda al profe",
+      "date": "Tue Sep 26 2023 19:47:08 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 21,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "no",
+      "date": "Tue Sep 26 2023 19:47:15 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 22,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "mano serio, tu fuiste el del video no? escuche tu voz",
+      "date": "Tue Sep 26 2023 19:47:39 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 23,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "si soi :3",
+      "date": "Tue Sep 26 2023 19:47:47 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 24,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": ".::Mensaje Baneado por alto contenido explicito::.",
+      "date": "Tue Sep 26 2023 19:48:17 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 25,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "ya fuiste mano entendi la indirecta, tu mensaje quedo grabado :3",
+      "date": "Tue Sep 26 2023 19:48:49 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 26,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "grabenme esta",
+      "date": "Tue Sep 26 2023 19:49:01 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 27,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "7u7",
+      "date": "Tue Sep 26 2023 19:49:11 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 28,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "ESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENOESTOY LLENO",
+      "date": "Tue Sep 26 2023 19:49:37 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 29,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⠋⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⠈⢻⣿⣿⡄⠀⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⣸⣿⡏⠀⠀⠀⣠⣶⣾⣿⣿⣿⠿⠿⠿⢿⣿⣿⣿⣄⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⣿⣿⠁⠀⠀⢰⣿⣿⣯⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⡄⠀ \n⠀⠀⣀⣤⣴⣶⣶⣿⡟⠀⠀⠀⢸⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⠀ \n⠀⢰⣿⡟⠋⠉⣹⣿⡇⠀⠀⠀⠘⣿⣿⣿⣿⣷⣦⣤⣤⣤⣶⣶⣶⣶⣿⣿⣿⠀ \n⠀⢸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀ \n⠀⣸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠉⠻⠿⣿⣿⣿⣿⡿⠿⠿⠛⢻⣿⡇⠀⠀ \n⠀⣿⣿⠁⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣧⠀⠀ \n⠀⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀ \n⠀⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀ \n⠀⢿⣿⡆⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀ \n⠀⠸⣿⣧⡀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠃⠀⠀ \n⠀⠀⠛⢿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⣰⣿⣿⣷⣶⣶⣶⣶⠶⠀⢠⣿⣿⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⣽⣿⡏⠁⠀⠀⢸⣿⡇⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⢹⣿⡆⠀⠀⠀⣸⣿⠇⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⢿⣿⣦⣄⣀⣠⣴⣿⣿⠁⠀⠈⠻⣿⣿⣿⣿⡿⠏⠀⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⠿⠿⠿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "date": "Tue Sep 26 2023 19:50:04 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 30,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "xdxdxd",
+      "date": "Tue Sep 26 2023 19:50:17 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 31,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "faltaría agregar el websocket para que sea bidireccional",
+      "date": "Tue Sep 26 2023 19:50:37 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 32,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": ".::Mensaje Baneado por alto contenido explicito::.",
+      "date": "Tue Sep 26 2023 19:50:52 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 33,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": ".::Mensaje Baneado por alto contenido explicito::.",
+      "date": "Tue Sep 26 2023 19:51:18 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 34,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "xddddddddddddddddddddddd",
+      "date": "Tue Sep 26 2023 19:52:15 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 35,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": ".::Mensaje Baneado por alto contenido explicito::.",
+      "date": "Tue Sep 26 2023 19:52:29 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 36,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "oe ya fuiste como voy a presentar eso :,v",
+      "date": "Tue Sep 26 2023 19:52:30 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 37,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 201,
+      "to": 101,
+      "message": "nose mano, tu mismo eres :u",
+      "date": "Tue Sep 26 2023 22:50:48 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 38,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 0,
+      "to": 0,
+      "message": "hola \n",
+      "date": "Thu Sep 28 2023 12:53:57 GMT-0500 (hora estándar de Colombia)"
+    },
+    {
+      "id": 39,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 0,
+      "message": "hola :3",
+      "date": "Sat Sep 30 2023 02:49:28 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 40,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "aeaeaeaeaeae",
+      "date": "Sat Sep 30 2023 02:53:57 GMT-0500 (hora estándar de Perú)"
+    },
+    {
+      "id": 41,
+      "chat_tourist_provider_id": 201,
+      "chat_tourist_id": 101,
+      "from": 101,
+      "to": 201,
+      "message": "holaaa",
+      "date": "Sat Sep 30 2023 14:33:50 GMT-0500 (hora estándar de Perú)"
+    }
+  ],
+  "city": [
+    {
+      "id": 1,
+      "city_name": "City 1",
+      "country_id": 1
+    }
+  ],
+  "country": [
+    {
+      "id": 1,
+      "country_name": "Country 1"
+    }
+  ],
+  "product_category": [
+    {
+      "id": 1,
+      "name": "Category 1",
+      "description": "Description of Category 1"
+    }
+  ],
+  "service_category": [
+    {
+      "id": 1,
+      "category_name": "Service Category 1",
+      "category_description": "Description of Service Category 1"
+    }
+  ],
+  "suscription": [
+    {
+      "id": 1,
+      "plan_name": "Plan 1",
+      "description": "Description of Plan 1",
+      "price": 10
+    }
+  ],
+  "suscription_invoice": [
+    {
+      "id": 1,
+      "suscription_id": 1,
+      "tourist_id": 101,
+      "suscription_start_day": "2023-09-01 00:00:00",
+      "suscription_deadline": "2023-09-30 23:59:59"
+    }
+  ],
+  "tourist": [
+    {
+      "id": 101,
+      "username": "tourist1",
+      "first_name": "John",
+      "last_name": "Doe",
+      "birthdate": "1990-01-15",
+      "role": "Tourist",
+      "password": "hashed_password",
+      "email": "john@example.com",
+      "nationality": "US",
+      "gender": "M",
+      "is_active": true,
+      "travel_points": 1000
+    }
+  ],
+  "tourist_provider": [
+    {
+      "id": 201,
+      "organization_name": "Provider Company",
+      "birthdate": "1985-05-20",
+      "organization_description": "Description of Provider Company",
+      "password": "hashed_password",
+      "email": "provider@example.com",
+      "website_link": "https://www.provider.com",
+      "provider_type": "Tour Operator",
+      "is_active": true
+    }
+  ],
+  "travel_itinerary": [
+    {
+      "id": 201,
+      "itinerary_name": "Itinerary 1",
+      "itinerary_description": "Description of Itinerary 1",
+      "create_date": "2023-09-01",
+      "update_date": "2023-09-15",
+      "total_price": 500
+    }
+  ],
+  "travel_itinerary_turist_service": [
+    {
+      "travel_itinerary_id": 201,
+      "turist_service_id": 301
+    }
+  ],
+  "tourist_service": [
+    {
+      "id": 301,
+      "address_id": 1,
+      "service_name": "Canopy Adventure",
+      "service_description": "Experience the thrill of zip-lining through the jungle canopy.",
+      "service_date": "2023-09-20 10:00:00",
+      "service_deadline": "2023-09-20 18:00:00",
+      "price": 100,
+      "capacity": 20,
+      "service_category_id": 1,
+      "tourist_provider_id": 201
+    },
+    {
+      "id": 302,
+      "address_id": 1,
+      "service_name": "Skydiving Adventure",
+      "service_description": "Feel the adrenaline rush of skydiving from high altitudes.",
+      "service_date": "2023-09-21 09:00:00",
+      "service_deadline": "2023-09-21 15:00:00",
+      "price": 150,
+      "capacity": 15,
+      "service_category_id": 1,
+      "tourist_provider_id": 202
+    },
+    {
+      "id": 303,
+      "address_id": 2,
+      "service_name": "Mountain Hiking",
+      "service_description": "Explore breathtaking mountain trails and enjoy nature's beauty.",
+      "service_date": "2023-09-22 08:00:00",
+      "service_deadline": "2023-09-22 16:00:00",
+      "price": 80,
+      "capacity": 25,
+      "service_category_id": 1,
+      "tourist_provider_id": 203
+    },
+    {
+      "id": 304,
+      "address_id": 2,
+      "service_name": "Scuba Diving",
+      "service_description": "Discover the underwater world with thrilling scuba diving adventures.",
+      "service_date": "2023-09-23 11:00:00",
+      "service_deadline": "2023-09-23 17:00:00",
+      "price": 120,
+      "capacity": 18,
+      "service_category_id": 1,
+      "tourist_provider_id": 204
+    },
+    {
+      "id": 401,
+      "address_id": 3,
+      "service_name": "Luxury Hotel",
+      "service_description": "Experience the ultimate luxury at our 5-star hotel.",
+      "service_date": "2023-09-25 15:00:00",
+      "service_deadline": "2023-09-26 12:00:00",
+      "price": 300,
+      "capacity": 50,
+      "service_category_id": 2,
+      "tourist_provider_id": 301
+    },
+    {
+      "id": 402,
+      "address_id": 4,
+      "service_name": "Boutique Hotel",
+      "service_description": "Stay in style at our charming boutique hotel.",
+      "service_date": "2023-09-26 14:00:00",
+      "service_deadline": "2023-09-27 10:00:00",
+      "price": 200,
+      "capacity": 30,
+      "service_category_id": 2,
+      "tourist_provider_id": 302
+    },
+    {
+      "id": 403,
+      "address_id": 5,
+      "service_name": "Beachfront Resort",
+      "service_description": "Relax and unwind at our beautiful beachfront resort.",
+      "service_date": "2023-09-27 12:00:00",
+      "service_deadline": "2023-09-28 09:00:00",
+      "price": 250,
+      "capacity": 40,
+      "service_category_id": 2,
+      "tourist_provider_id": 303
+    },
+    {
+      "id": 404,
+      "address_id": 6,
+      "service_name": "Mountain Lodge",
+      "service_description": "Escape to the mountains and stay in our cozy lodge.",
+      "service_date": "2023-09-28 14:00:00",
+      "service_deadline": "2023-09-29 11:00:00",
+      "price": 180,
+      "capacity": 25,
+      "service_category_id": 2,
+      "tourist_provider_id": 304
+    },
+    {
+      "id": 501,
+      "address_id": 7,
+      "service_name": "Fine Dining Restaurant",
+      "service_description": "Savor exquisite dishes at our fine dining restaurant.",
+      "service_date": "2023-09-30 19:00:00",
+      "service_deadline": "2023-09-30 23:00:00",
+      "price": 80,
+      "capacity": 40,
+      "service_category_id": 3,
+      "tourist_provider_id": 401
+    },
+    {
+      "id": 502,
+      "address_id": 8,
+      "service_name": "Seafood Restaurant",
+      "service_description": "Indulge in fresh seafood delights at our seaside restaurant.",
+      "service_date": "2023-10-01 18:30:00",
+      "service_deadline": "2023-10-01 22:30:00",
+      "price": 70,
+      "capacity": 35,
+      "service_category_id": 3,
+      "tourist_provider_id": 402
+    },
+    {
+      "id": 503,
+      "address_id": 9,
+      "service_name": "Italian Trattoria",
+      "service_description": "Experience the flavors of Italy at our cozy trattoria.",
+      "service_date": "2023-10-02 20:00:00",
+      "service_deadline": "2023-10-02 23:00:00",
+      "price": 65,
+      "capacity": 30,
+      "service_category_id": 3,
+      "tourist_provider_id": 403
+    },
+    {
+      "id": 504,
+      "address_id": 10,
+      "service_name": "Mexican Cantina",
+      "service_description": "Enjoy spicy Mexican cuisine at our vibrant cantina.",
+      "service_date": "2023-10-03 17:00:00",
+      "service_deadline": "2023-10-03 21:00:00",
+      "price": 60,
+      "capacity": 25,
+      "service_category_id": 3,
+      "tourist_provider_id": 404
+    },
+    {
+      "id": 601,
+      "address_id": 11,
+      "service_name": "City Sightseeing Tour",
+      "service_description": "Discover the city's landmarks on our guided tour.",
+      "service_date": "2023-10-04 10:00:00",
+      "service_deadline": "2023-10-04 14:00:00",
+      "price": 40,
+      "capacity": 30,
+      "service_category_id": 4,
+      "tourist_provider_id": 501
+    },
+    {
+      "id": 602,
+      "address_id": 12,
+      "service_name": "Nature Adventure Tour",
+      "service_description": "Explore the wilderness on our thrilling nature tour.",
+      "service_date": "2023-10-05 09:30:00",
+      "service_deadline": "2023-10-05 13:30:00",
+      "price": 45,
+      "capacity": 25,
+      "service_category_id": 4,
+      "tourist_provider_id": 502
+    },
+    {
+      "id": 603,
+      "address_id": 13,
+      "service_name": "Historical Landmarks Tour",
+      "service_description": "Learn about the region's history on our historical tour.",
+      "service_date": "2023-10-06 11:00:00",
+      "service_deadline": "2023-10-06 15:00:00",
+      "price": 35,
+      "capacity": 35,
+      "service_category_id": 4,
+      "tourist_provider_id": 503
+    },
+    {
+      "id": 604,
+      "address_id": 14,
+      "service_name": "Wine Tasting Tour",
+      "service_description": "Taste the finest wines on our guided wine tasting tour.",
+      "service_date": "2023-10-07 16:00:00",
+      "service_deadline": "2023-10-07 19:30:00",
+      "price": 55,
+      "capacity": 20,
+      "service_category_id": 4,
+      "tourist_provider_id": 504
+    }
+  ],
+  "tourist_service_thumbnail": [
+    {
+      "id": 1,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157028444417310770/2Q.png?ex=65171e35&is=6515ccb5&hm=9eef293d205cbea62d26bb32a129fb032267cd34eecfc20f66f534c9b015a4ab&",
+      "turist_service_id": 301
+    },
+    {
+      "id": 2,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157028502219006093/canopy-banos-ecuador.png?ex=65171e43&is=6515ccc3&hm=3005a595ecd188f9e613ff98c6ee81046b060b6aefcfd538ae284663a44d8bc0&",
+      "turist_service_id": 301
+    },
+    {
+      "id": 3,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157031407890202705/aff-course-1200x900-cropped.png?ex=651720f8&is=6515cf78&hm=5e6e78f4b014d9fef9164b481d40e91ab5b3c4358aaa965a6ee90e3efabe75c5&",
+      "turist_service_id": 302
+    },
+    {
+      "id": 4,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157031508943577118/paracaidismo-principal.png?ex=65172110&is=6515cf90&hm=6ce820e703acac2a2e08264e80b0794f4f0d42f41fcf7be2402bf96937839240&",
+      "turist_service_id": 302
+    },
+    {
+      "id": 5,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032262077005874/photo-1551632811-561732d1e306.png?ex=651721c3&is=6515d043&hm=bf9666a467a1855c31c8171f3a1292497a9de6af9687b9fbe9adcdc1f226eb10&",
+      "turist_service_id": 303
+    },
+    {
+      "id": 6,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032330590965830/vagnini_181016_2024_hiking_beginners_hero_lg.png?ex=651721d4&is=6515d054&hm=348b6cd22a7720b12d47e9d10576f871062f0ca9718841ab07114393a863885b&",
+      "turist_service_id": 303
+    },
+    {
+      "id": 7,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032418553897030/e75c5e_2c6f3122e58942e084abb686da35a3e1mv2.png?ex=651721e9&is=6515d069&hm=c1e2d8f727e4fb13eae803037022d1c0669062da3bd38eaf010e41e96f4647e5&",
+      "turist_service_id": 304
+    },
+    {
+      "id": 8,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032446093709402/shutterstock_130948589.png?ex=651721ef&is=6515d06f&hm=fbd97cd18ba69df54c8430dd18af5297e4687e7e4ce8cbe2f1e08255daaa517b&",
+      "turist_service_id": 304
+    },
+    {
+      "id": 9,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032631326752869/2Q.png?ex=6517221b&is=6515d09b&hm=5225b42b21edd50847dc8dce2917708abafcecf6a2fcb9fc8b1c7822962cf6f9&",
+      "turist_service_id": 401
+    },
+    {
+      "id": 10,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032687526223972/7301_221204_Sofitel-1.png?ex=65172229&is=6515d0a9&hm=65435512a0977729e06e0397f27eb3f844d4581f8cb0a8cf5db7d065e5616236&",
+      "turist_service_id": 401
+    },
+    {
+      "id": 11,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032855893979226/home_9075.png?ex=65172251&is=6515d0d1&hm=99a6c927a25eadc6d3b69ba7dbf6f53f3a6b7769d39a65487196d20dc57915ad&",
+      "turist_service_id": 402
+    },
+    {
+      "id": 12,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157032929873113149/448_R7270.png?ex=65172263&is=6515d0e3&hm=66838692947d35f2fe71ac396a7c3eaaad3d5f71226ce9dcc3d995c4b690120b&",
+      "turist_service_id": 402
+    },
+    {
+      "id": 13,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157033125256364103/esperanza-at-night.png?ex=65172291&is=6515d111&hm=76488ff7cb533e6f2506fcf75841010359e7aee9909a49f97c23acfb7f5dae25&",
+      "turist_service_id": 403
+    },
+    {
+      "id": 14,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157033157611245678/ESP_55.png?ex=65172299&is=6515d119&hm=fb9c6e4e188321011cd1623955a7ad7945adadd0bb58fc5059bde05be810dc48&",
+      "turist_service_id": 403
+    },
+    {
+      "id": 15,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157040045233029191/2Q.png?ex=65172903&is=6515d783&hm=dbcfc57ab7918b2f41f2faf8833f9d765c492c794ac6da2902702937e6ab367a&",
+      "turist_service_id": 404
+    },
+    {
+      "id": 16,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157040073565536317/mountain_lodge_hero_image_-_edited.png?ex=6517290a&is=6515d78a&hm=4e1b6fe4a7742124b622ae134e2a7c09cc0d603c46d152acfe35f049503d9ce2&",
+      "turist_service_id": 404
+    },
+    {
+      "id": 17,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157033655831634000/shutterstock_741884605.png?ex=65172310&is=6515d190&hm=7cc583260f66e44d51594921010dd801893d887a8d2f53f72eda03cecc6c53c2&",
+      "turist_service_id": 501
+    },
+    {
+      "id": 18,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157033692548579409/Fine_Dining_At_The_Perfect_Caper_23c8ab17-b39f-4909-8a1d-ee91a9a42dfe.png?ex=65172318&is=6515d198&hm=01b781d887d5ce31fbc9f0eee5b72fc5690cc7b5d7c694d3a1442e0890315231&",
+      "turist_service_id": 501
+    },
+    {
+      "id": 19,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157034233806729216/DijlahVillage-45.png?ex=65172399&is=6515d219&hm=deda9a659e6ec9c2f09ca531987ae6399f00161a94b8cf6af8e489ce942f9af0&",
+      "turist_service_id": 502
+    },
+    {
+      "id": 20,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157034263837937664/Y7KCKB5QDFFDTAGK5KMFDMZARY.png?ex=651723a1&is=6515d221&hm=ff76e8dd2386adfc34cc3e5b20c8167da9a81780bee4693302dacbf1a0c07c99&",
+      "turist_service_id": 502
+    },
+    {
+      "id": 21,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157035151025516584/ristorante-900x598.png?ex=65172474&is=6515d2f4&hm=0c2f35682fcd202b65d3df371c0fe675283042e03007eef0b721e85e87a6ad63&",
+      "turist_service_id": 503
+    },
+    {
+      "id": 22,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157035813582942348/photo7jpg.png?ex=65172512&is=6515d392&hm=95e0e023c0f68e9e4f9ceabaab0aef38dce804db4de66e6492eb65e247c381ae&",
+      "turist_service_id": 503
+    },
+    {
+      "id": 23,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157036603202605177/images.png?ex=651725ce&is=6515d44e&hm=e5a896c73da6a033e8eae5332526d2e7eb625b97f0a8db330043a3c351e2b054&",
+      "turist_service_id": 504
+    },
+    {
+      "id": 24,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157036633980420137/E52F4857-379A-4195-9598-B910D43FF091-1.png?ex=651725d6&is=6515d456&hm=f30bb012eac1c77415d18eae90b1335a86f0316c97c43a191ed61cccc019a02f&",
+      "turist_service_id": 504
+    },
+    {
+      "id": 25,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157036792831279215/citysightseeing-portugal.png?ex=651725fc&is=6515d47c&hm=0e8075018258612882c2f2b1626b6fe00b2a2dea1e7611eb6c3ec7944880fa8a&",
+      "turist_service_id": 601
+    },
+    {
+      "id": 26,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157036847290134548/DOURO-ACIMA.png?ex=65172609&is=6515d489&hm=b0f6184d13acf561accdb59f64e5ec1ec14770ebf6cbb21a5e488ce7a1741726&",
+      "turist_service_id": 601
+    },
+    {
+      "id": 27,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157036951409545287/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL2Jsb2cvcmF0Z2ViZXIvM2I1ODJmODQtMjM5Yy00OWE2LTk3OTEtOTU0ZTMwZTQ2YWYzLzU3OGQ4ZWE2MTUtMTY3OTQ4NTkxNC9ibG9nLXJhdGdlYmVyLW5hdHVyLXVuZC1lcmxlYm5pc3JlaXNlbi12b3JhdXNzZXR6dW5nZW4tZmx1c3Mtd2FsZC1uYXR1Y2F0ZS5qcGc.png?ex=65172621&is=6515d4a1&hm=e08000028921d446e5065a74d60b14246a12e52e7a1650bad54a2cda55b82d6a&",
+      "turist_service_id": 602
+    },
+    {
+      "id": 28,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157037057739329586/her-favourite-spot-to-trek-to.png?ex=6517263b&is=6515d4bb&hm=b1dbe80aadfd25b7f8c280809ac1c8ae42573983f6606cdef796aeb81e92d913&",
+      "turist_service_id": 602
+    },
+    {
+      "id": 29,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157037540835086376/famous-italian-landmarks-1920x890.png?ex=651726ae&is=6515d52e&hm=436077b6f1e26ce0f50cdc2355d2343b9b38faceb8bdf4db8f0f47225a25f392&",
+      "turist_service_id": 603
+    },
+    {
+      "id": 30,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157037452473675796/Leaning-Tower-of-Pisa.png?ex=65172699&is=6515d519&hm=92e6e45f29b331ed3515d20df1c1fd13a5fbe311ce5112e76992d98da3fd1d50&",
+      "turist_service_id": 603
+    },
+    {
+      "id": 31,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157038516853809192/caption.png?ex=65172797&is=6515d617&hm=f58d6fc55bd126674855fad6e2629e61bc0ddaa99a3dba42bb5d2edf13da9da2&",
+      "turist_service_id": 604
+    },
+    {
+      "id": 32,
+      "image_link": "https://cdn.discordapp.com/attachments/1120134585896939531/1157038616351100939/7360_BAG1_large.png?ex=651727ae&is=6515d62e&hm=72d35717107c51c5d930492d73bad3977102eca8cbb991c37a68995dbda68a3e&",
+      "turist_service_id": 604
+    }
+  ]
+}
