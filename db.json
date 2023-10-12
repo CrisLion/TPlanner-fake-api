@@ -705,16 +705,17 @@
   ],
   "tourist_service": [
     {
-      "id": 301,
-      "address_id": 1,
-      "service_name": "Canopy Adventure",
-      "service_description": "Experience the thrill of zip-lining through the jungle canopy.",
-      "service_date": "2023-09-20 10:00:00",
-      "service_deadline": "2023-09-20 18:00:00",
-      "price": 100,
-      "capacity": 20,
-      "service_category_id": 1,
-      "tourist_provider_id": 201
+    "id": 301,
+    "address_id": 1,
+    "service_name": "Canopy Adventure",
+    "service_description": "Experience the thrill of zip-lining through the jungle canopy.",
+    "service_date": "2023-09-20 10:00:00",
+    "service_deadline": "2023-09-20 18:00:00",
+    "price": 100,
+    "capacity": 20,
+    "service_category_id": 1,
+    "tourist_provider_id": 201,
+    "content": "<p>Welcome to the Canopy Adventure! Get ready for an unforgettable journey through the heart of the jungle. Here's what you can expect:</p><blockquote>🌴 Zip-line through lush, tropical canopies.</blockquote><blockquote>🌄 Breathtaking views of the surrounding nature.</blockquote><blockquote>🧭 Experienced guides ensuring your safety.</blockquote><blockquote>🌿 Suitable for thrill-seekers and nature enthusiasts.</blockquote><blockquote>🎒 All necessary equipment provided.</blockquote><p>This adventure is designed for those who seek an adrenaline rush and a deep connection with nature. Our expert guides will lead you through the treetops, allowing you to explore the jungle from a whole new perspective. Don't miss this opportunity to experience the wild beauty of our natural world. 🌏🌿</p>"
     },
     {
       "id": 302,
