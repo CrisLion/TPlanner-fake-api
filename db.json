@@ -21,66 +21,66 @@
   ],
   "activities": [
     {
-      "evento": "Salida de la geo-cerca",
-      "fechaHora": "2024-09-03T10:45:00",
-      "duracion": "10 minutos",
-      "accionTomada": "Notificación enviada",
+      "event": "Salida de la geo-cerca",
+      "datetime": "2024-09-03T10:45:00",
+      "duration": "10 minutos",
+      "actionTaken": "Notificación enviada",
       "userId": 1
     },
     {
-      "evento": "Pérdida de señal GPS",
-      "fechaHora": "2024-09-03T11:30:00",
-      "duracion": "5 segundos",
-      "accionTomada": "Intento de reconexión",
+      "event": "Pérdida de señal GPS",
+      "datetime": "2024-09-03T11:30:00",
+      "duration": "5 segundos",
+      "actionTaken": "Intento de reconexión",
       "userId": 1
     },
     {
-      "evento": "Dispositivo desincronizado",
-      "fechaHora": "2024-09-03T12:10:00",
-      "duracion": "2 minutos",
-      "accionTomada": "Notificación enviada",
+      "event": "Dispositivo desincronizado",
+      "datetime": "2024-09-03T12:10:00",
+      "duration": "2 minutos",
+      "actionTaken": "Notificación enviada",
       "userId": 2
     },
     {
-      "evento": "Entrada a la geo-cerca",
-      "fechaHora": "2024-09-02T09:00:00",
-      "duracion": "N/A",
-      "accionTomada": "Registro de entrada",
+      "event": "Entrada a la geo-cerca",
+      "datetime": "2024-09-02T09:00:00",
+      "duration": "N/A",
+      "actionTaken": "Registro de entrada",
       "userId": 2
     },
     {
-      "evento": "Baja batería del dispositivo",
-      "fechaHora": "2024-09-01T14:15:00",
-      "duracion": "N/A",
-      "accionTomada": "Advertencia enviada",
+      "event": "Baja batería del dispositivo",
+      "datetime": "2024-09-01T14:15:00",
+      "duration": "N/A",
+      "actionTaken": "Advertencia enviada",
       "userId": 3
     },
     {
-      "evento": "Salida de la geo-cerca",
-      "fechaHora": "2024-08-31T16:45:00",
-      "duracion": "8 minutos",
-      "accionTomada": "Notificación enviada",
+      "event": "Salida de la geo-cerca",
+      "datetime": "2024-08-31T16:45:00",
+      "duration": "8 minutos",
+      "actionTaken": "Notificación enviada",
       "userId": 1
     },
     {
-      "evento": "Restablecimiento de GPS",
-      "fechaHora": "2024-08-31T16:55:00",
-      "duracion": "N/A",
-      "accionTomada": "Conexión restablecida",
+      "event": "Restablecimiento de GPS",
+      "datetime": "2024-08-31T16:55:00",
+      "duration": "N/A",
+      "actionTaken": "Conexión restablecida",
       "userId": 2
     },
     {
-      "evento": "Dispositivo desincronizado",
-      "fechaHora": "2024-08-30T08:20:00",
-      "duracion": "3 minutos",
-      "accionTomada": "Intento de reconexión",
+      "event": "Dispositivo desincronizado",
+      "datetime": "2024-08-30T08:20:00",
+      "duration": "3 minutos",
+      "actionTaken": "Intento de reconexión",
       "userId": 3
     },
     {
-      "evento": "Entrada a la geo-cerca",
-      "fechaHora": "2024-08-29T18:30:00",
-      "duracion": "N/A",
-      "accionTomada": "Registro de entrada",
+      "event": "Entrada a la geo-cerca",
+      "datetime": "2024-08-29T18:30:00",
+      "duration": "N/A",
+      "actionTaken": "Registro de entrada",
       "userId": 1
     }
   ]
