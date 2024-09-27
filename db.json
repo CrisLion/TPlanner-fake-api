@@ -83,5 +83,55 @@
       "actionTaken": "Registro de entrada",
       "userId": 1
     }
+  ],
+  "devices": [
+    {
+      "nickname": "Dispositivo 1",
+      "bearer": "Cristian",
+      "status": "Conectado",
+      "careMode": "Infante"
+    },
+    {
+      "nickname": "Dispositivo 2",
+      "bearer": "Diego",
+      "status": "Desconectado",
+      "careMode": "Adulto"
+    },
+    {
+      "nickname": "Dispositivo 3",
+      "bearer": "Laura",
+      "status": "Conectado",
+      "careMode": "Infante"
+    },
+    {
+      "nickname": "Dispositivo 4",
+      "bearer": "María",
+      "status": "Desconectado",
+      "careMode": "Adulto"
+    },
+    {
+      "nickname": "Dispositivo 5",
+      "bearer": "Andrés",
+      "status": "Desconectado",
+      "careMode": "Infante"
+    },
+    {
+      "nickname": "Dispositivo 6",
+      "bearer": "Sofía",
+      "status": "Conectado",
+      "careMode": "Adulto"
+    },
+    {
+      "nickname": "Dispositivo 7",
+      "bearer": "Lucas",
+      "status": "Desconectado",
+      "careMode": "Infante"
+    },
+    {
+      "nickname": "Dispositivo 8",
+      "bearer": "Daniel",
+      "status": "Conectado",
+      "careMode": "Adulto"
+    }
   ]
 }
