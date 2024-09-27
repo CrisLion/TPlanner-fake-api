@@ -86,6 +86,7 @@
   ],
   "devices": [
     {
+      "id": 1,
       "nickname": "Dispositivo 1",
       "bearer": "Cristian",
       "status": "Conectado",
@@ -93,6 +94,7 @@
       "user_id": 1
     },
     {
+      "id": 2,
       "nickname": "Dispositivo 2",
       "bearer": "Diego",
       "status": "Desconectado",
@@ -100,6 +102,7 @@
       "user_id": 2
     },
     {
+      "id": 3,
       "nickname": "Dispositivo 3",
       "bearer": "Laura",
       "status": "Conectado",
@@ -107,6 +110,7 @@
       "user_id": 3
     },
     {
+      "id": 4,
       "nickname": "Dispositivo 4",
       "bearer": "María",
       "status": "Desconectado",
@@ -114,6 +118,7 @@
       "user_id": 1
     },
     {
+      "id": 5,
       "nickname": "Dispositivo 5",
       "bearer": "Andrés",
       "status": "Desconectado",
@@ -121,6 +126,7 @@
       "user_id": 2
     },
     {
+      "id": 6,
       "nickname": "Dispositivo 6",
       "bearer": "Sofía",
       "status": "Conectado",
@@ -128,6 +134,7 @@
       "user_id": 3
     },
     {
+      "id": 7,
       "nickname": "Dispositivo 7",
       "bearer": "Lucas",
       "status": "Conectado",
@@ -135,11 +142,158 @@
       "user_id": 1
     },
     {
+      "id": 8,
       "nickname": "Dispositivo 8",
       "bearer": "Daniel",
       "status": "Conectado",
       "careMode": "Adulto",
       "user_id": 2
+    }
+  ],
+  "heart-rates": [
+    {
+      "id": 1,
+      "date": "2024-08-01",
+      "year": "2024",
+      "month": "08",
+      "day": "01",
+      "avg_bpm": "71",
+      "device_id": 1
+    },
+    {
+      "id": 2,
+      "date": "2024-08-02",
+      "year": "2024",
+      "month": "08",
+      "day": "02",
+      "avg_bpm": "68",
+      "device_id": 2
+    },
+    {
+      "id": 3,
+      "date": "2024-08-03",
+      "year": "2024",
+      "month": "08",
+      "day": "03",
+      "avg_bpm": "75",
+      "device_id": 3
+    },
+    {
+      "id": 4,
+      "date": "2024-08-04",
+      "year": "2024",
+      "month": "08",
+      "day": "04",
+      "avg_bpm": "72",
+      "device_id": 4
+    },
+    {
+      "id": 5,
+      "date": "2024-08-05",
+      "year": "2024",
+      "month": "08",
+      "day": "05",
+      "avg_bpm": "69",
+      "device_id": 5
+    },
+    {
+      "id": 6,
+      "date": "2024-08-06",
+      "year": "2024",
+      "month": "08",
+      "day": "06",
+      "avg_bpm": "77",
+      "device_id": 6
+    },
+    {
+      "id": 7,
+      "date": "2024-08-07",
+      "year": "2024",
+      "month": "08",
+      "day": "07",
+      "avg_bpm": "70",
+      "device_id": 7
+    },
+    {
+      "id": 8,
+      "date": "2024-08-08",
+      "year": "2024",
+      "month": "08",
+      "day": "08",
+      "avg_bpm": "74",
+      "device_id": 8
+    },
+    {
+      "id": 9,
+      "date": "2024-08-09",
+      "year": "2024",
+      "month": "08",
+      "day": "09",
+      "avg_bpm": "73",
+      "device_id": 1
+    },
+    {
+      "id": 10,
+      "date": "2024-08-10",
+      "year": "2024",
+      "month": "08",
+      "day": "10",
+      "avg_bpm": "76",
+      "device_id": 2
+    },
+    {
+      "id": 11,
+      "date": "2024-08-11",
+      "year": "2024",
+      "month": "08",
+      "day": "11",
+      "avg_bpm": "71",
+      "device_id": 3
+    },
+    {
+      "id": 12,
+      "date": "2024-08-12",
+      "year": "2024",
+      "month": "08",
+      "day": "12",
+      "avg_bpm": "72",
+      "device_id": 4
+    },
+    {
+      "id": 13,
+      "date": "2024-08-13",
+      "year": "2024",
+      "month": "08",
+      "day": "13",
+      "avg_bpm": "69",
+      "device_id": 5
+    },
+    {
+      "id": 14,
+      "date": "2024-08-14",
+      "year": "2024",
+      "month": "08",
+      "day": "14",
+      "avg_bpm": "75",
+      "device_id": 6
+    },
+    {
+      "id": 15,
+      "date": "2024-08-15",
+      "year": "2024",
+      "month": "08",
+      "day": "15",
+      "avg_bpm": "70",
+      "device_id": 7
+    },
+    {
+      "id": 16,
+      "date": "2024-08-16",
+      "year": "2024",
+      "month": "08",
+      "day": "16",
+      "avg_bpm": "74",
+      "device_id": 8
     }
   ]
 }
