@@ -84,54 +84,62 @@
       "userId": 1
     }
   ],
-  "devices": [
+    "devices": [
     {
       "nickname": "Dispositivo 1",
       "bearer": "Cristian",
       "status": "Conectado",
-      "careMode": "Infante"
+      "careMode": "Infante",
+      "user_id": 1
     },
     {
       "nickname": "Dispositivo 2",
       "bearer": "Diego",
       "status": "Desconectado",
-      "careMode": "Adulto"
+      "careMode": "Adulto",
+      "user_id": 2
     },
     {
       "nickname": "Dispositivo 3",
       "bearer": "Laura",
       "status": "Conectado",
-      "careMode": "Infante"
+      "careMode": "Infante",
+      "user_id": 3
     },
     {
       "nickname": "Dispositivo 4",
       "bearer": "María",
       "status": "Desconectado",
-      "careMode": "Adulto"
+      "careMode": "Adulto",
+      "user_id": 1
     },
     {
       "nickname": "Dispositivo 5",
       "bearer": "Andrés",
       "status": "Desconectado",
-      "careMode": "Infante"
+      "careMode": "Infante",
+      "user_id": 2
     },
     {
       "nickname": "Dispositivo 6",
       "bearer": "Sofía",
       "status": "Conectado",
-      "careMode": "Adulto"
+      "careMode": "Adulto",
+      "user_id": 3
     },
     {
       "nickname": "Dispositivo 7",
       "bearer": "Lucas",
-      "status": "Desconectado",
-      "careMode": "Infante"
+      "status": "Conectado",
+      "careMode": "Infante",
+      "user_id": 1
     },
     {
       "nickname": "Dispositivo 8",
       "bearer": "Daniel",
       "status": "Conectado",
-      "careMode": "Adulto"
+      "careMode": "Adulto",
+      "user_id": 2
     }
   ]
 }
